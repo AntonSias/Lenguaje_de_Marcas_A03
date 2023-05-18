@@ -1,7 +1,27 @@
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
+<!--
+    <?xml version="1.0"?>
 
+    <ite nombre="Instituto Tecnol󧩣o Edix" web="https://institutotecnologico.edix.com" telefono="+34 91 787 39 91" empresa="Proeduca">
+        <equipo_docente>
+            <director nombre="Chon" despacho="Numero 31, 3ª Planta, Edificio A" />
+            <jefe_estu nombre="Dani" despacho="Numero 27, 2ª Planta, Edificio B" />
+            <profesores>
+                <profesor id="1" nombre="F鬩x" />
+                <profesor id="2" nombre="Raúl" />
+                <profesor id="3" nombre="Raquel" />
+                <profesor id="4" nombre="Tom᳢ />
+            </profesores>
+        </equipo_docente>
+        <ciclos>
+            <ciclo nombre=" Administraci󮠤e Sistemas Informᴩcos en Red" grado=" Superior" decreto=" 2009">ASIR</ciclo>
+            <ciclo nombre=" Desarrollo de Aplicaciones Web" grado=" Superior" decreto=" 2010">DAW</ciclo>
+            <ciclo nombre=" Desarrollo de Aplicaciones Multiplataforma" grado=" Superior" decreto=" 2010">DAM</ciclo>
+        </ciclos>
+    </ite>
+-->
 
     <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes" />
     <xsl:template match="/">
